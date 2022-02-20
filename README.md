@@ -1,4 +1,7 @@
-## Welcome to GitHub Pages
+## Mais informações no Time24.pdf
+
+
+##Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/rodrigosbampato1/Team24/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
