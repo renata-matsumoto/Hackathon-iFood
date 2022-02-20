@@ -3,7 +3,11 @@ import { Card } from "primereact/card";
 import { Button } from "primereact/button";
 import "./ListRecipes.css";
 import Image1 from './img1.jpg'
+import Image2 from '../../assets/image2.jfif'
+import Image3 from '../../assets/image3.jfif'
+import Image5 from '../../assets/cookies.jpg'
 import Recipes from '../Recipes/Recipes';
+import ComprarIngredientes from "../ComprarIngredientes/ComprarIngredientes";
 
 
 export default function ListRecipes() {
@@ -16,20 +20,20 @@ export default function ListRecipes() {
         },
         {
             recipeUrl: '#',
-            title: 'Macarrão sem Glúten',
-            image: Image1,
+            title: 'Sorvete Fit',
+            image: Image2,
             content: 'Pensando em facilitar a vida de pessoas celíacas, preparamos um menu com opções livre de glúten.'
         },
         {
             recipeUrl: '#',
             title: 'Macarrão sem Glúten',
-            image: Image1,
+            image: Image3,
             content: 'Pensando em facilitar a vida de pessoas celíacas, preparamos um menu com opções livre de glúten.'
         },
         {
             recipeUrl: '#',
-            title: 'Macarrão sem Glúten',
-            image: Image1,
+            title: 'Cookies',
+            image: Image5,
             content: 'Pensando em facilitar a vida de pessoas celíacas, preparamos um menu com opções livre de glúten.'
         }
     ]
@@ -61,7 +65,7 @@ export default function ListRecipes() {
     const renderFooter = (recipeUrl) => {
         return (
             <span>
-                <Button className="botao" label="Selecionar" icon="pi pi-check" onClick={_onBtnClick(recipeUrl)} />
+                <Button className="botao" label="Selecionar" icon="pi pi-check" onClick={_onBtnClick(ComprarIngredientes)} />
                 <Button label="Cancelar" icon="pi pi-times" className="p-button-secondary-ml-2 ms-1" />
             </span>
         )
