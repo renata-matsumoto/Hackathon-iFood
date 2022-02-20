@@ -8,6 +8,9 @@ import "primeicons/primeicons.css";
 import Home from './components/Home/Index'
 import ListRecipes from './components/ListRecipes/ListRecipes';
 import Landing from './components/Landing/Landing';
+import ComprarIngredientes from './components/ComprarIngredientes/ComprarIngredientes';
+import Recipes from './components/Recipes/Recipes';
+
 
 function App() {
   return (
@@ -16,7 +19,8 @@ function App() {
       
       {/* <Home></Home> */}
       {/* <Landing></Landing> */}
-      <ListRecipes></ListRecipes>
+
+      <Recipes></Recipes>
 
     </div>
   );
